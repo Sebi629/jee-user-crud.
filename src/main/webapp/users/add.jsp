@@ -17,7 +17,7 @@
     <!--Content Row -->
     <div class="row">
 
-        <form action="list.jsp" method="post">
+        <form action="/useradd" method="post">
 
             <div class="form-group">
 

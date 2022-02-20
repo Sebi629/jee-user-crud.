@@ -25,7 +25,7 @@ public class UserAdd extends HttpServlet {
         user.setPassword(request.getParameter("userPassword"));
         UserDao userDao = new UserDao();
         userDao.create(user);
-        response.sendRedirect(request.getContextPath() + "/user/list");
+        response.sendRedirect(request.getContextPath() + "/userlist");
 
 
 
